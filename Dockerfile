@@ -1,4 +1,4 @@
-FROM    maven:3.6.0-jdk-8
+FROM    maven:3.6.3-jdk-8
 RUN     mkdir /functional-assurance
 WORKDIR /functional-assurance
 COPY    . .
